@@ -266,6 +266,7 @@
             IdBox.Name = "IdBox";
             IdBox.Size = new Size(169, 27);
             IdBox.TabIndex = 3;
+            IdBox.TextChanged += IdBox_TextChanged;
             // 
             // CostBox
             // 

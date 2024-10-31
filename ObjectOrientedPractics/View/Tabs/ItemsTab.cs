@@ -10,6 +10,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
 namespace ObjectOrientedPractics.View.Tabs
 {
     public partial class ItemsTab : UserControl
@@ -132,6 +133,11 @@ namespace ObjectOrientedPractics.View.Tabs
                 CostBox.ForeColor = System.Drawing.Color.Red;
                 MessageBox.Show("Цена должна быть от 0 до 100000.");
             }
+        }
+
+        private void IdBox_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
