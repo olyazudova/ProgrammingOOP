@@ -41,7 +41,7 @@ namespace ObjectOrientedPractics.View.Tabs
         {
             try
             {
-                ValueValidator.AssertStringOnLength(FullNameBox.Text, 200, nameof(FullNameBox));
+                ValueValidator.AssertStringOnLength(FullNameBox.Text, 300, nameof(FullNameBox));
                 FullNameBox.ForeColor = System.Drawing.Color.Black;
             }
             catch (ArgumentException)
