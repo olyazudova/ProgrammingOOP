@@ -12,6 +12,7 @@ using System.Windows.Forms;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 
+
 namespace ObjectOrientedPractics.View.Tabs
 {
     public partial class CustomersTab : UserControl
